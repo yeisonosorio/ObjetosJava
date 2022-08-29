@@ -86,9 +86,9 @@ public class Motorcycle {
     public double secureDiscount(int model, int cylinderCapacity) {
         double discount = 0;
 
-        if (model >= 2000 && model < 2010) {
+        if ( model >= 2000 ) && ( model < 2010 ) {
             discount = safeValue * 0.10;
-        } else if (model >= 2010 && model < 2020) {
+        } else if ( model >= 2010 ) && ( model < 2020 ) {
             discount = safeValue * 0.20;
         } else {
             discount = safeValue * 0.30;
